@@ -1,26 +1,43 @@
-# Vue 3 + Typescript + Vite
+### 👊说明
 
-This template should help get you started developing with Vue 3 and Typescript in Vite.
+本项目是基于Vue 3 + Typescript + Vite2.0+axios+Vant3+Vuex构建一个基础的入门项目，
 
-## Recommended IDE Setup
+###### 已经配置好相关插件，无需再重复下载，开箱即用
 
-[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). Make sure to enable `vetur.experimental.templateInterpolationService` in settings!
+## 技术点
 
-### If Using `<script setup>`
+- 版本：vue3.0(Ts)
+- 路由：vuex
+- 构建工具：vite
+- 网络请求：axios
+- 移动端UI框架：vant(Ts)
+- 移动端适配解决方案：postcss-pxtorem
 
-[`<script setup>`](https://github.com/vuejs/rfcs/pull/227) is a feature that is currently in RFC stage. To get proper IDE support for the syntax, use [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) instead of Vetur (and disable Vetur).
+## 项目运行
 
-## Type Support For `.vue` Imports in TS
+```
+# 克隆项目到本地
+github.com/Tianyuwen/my-vue-app.git
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can use the following:
+# 进入文件夹
+cd my-vue-app
 
-### If Using Volar
+# 安装依赖
+npm install或 npm i(简写)
 
-Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
+# 开启服务
+npm run dev
 
-### If Using Vetur
+# 打包项目
+npm run build
 
-1. Install and add `@vuedx/typescript-plugin-vue` to the [plugins section](https://www.typescriptlang.org/tsconfig#plugins) in `tsconfig.json`
-2. Delete `src/shims-vue.d.ts` as it is no longer needed to provide module info to Typescript
-3. Open `src/main.ts` in VSCode
-4. Open the VSCode command palette 5. Search and run "Select TypeScript version" -> "Use workspace version"
+```
+
+## 联系方式
+
+<img src="./img/qun.jpg" style="zoom:30%;" />
+
+- 如果你也是热衷于学习前端的小伙伴，欢迎大家加入群，大家可以在里面一起讨论和学习噢。
+
+
+
